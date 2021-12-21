@@ -1,0 +1,18 @@
+[package]
+version = "0.1.0"
+name = "{{project-name}}"
+repository = "https://github.com/lehrbaumm/bin_quickstart"
+authors = ["{{authors}}"]
+description = ""
+categories = ["binary", "cli"]
+license = "GPL-3.0"
+license-file = "LICENSE.txt"
+readme = "./README.md"
+edition = "2021"
+build = false
+publish = false
+
+[dependencies]
+color-eyre = "0.5.11"
+tracing = "0.1.29"
+tracing-subscriber = { version = "0.3.3", features = ["env-filter", "fmt"] }
