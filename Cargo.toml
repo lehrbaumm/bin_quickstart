@@ -6,7 +6,6 @@ authors = ["{{authors}}"]
 description = ""
 categories = ["binary", "cli"]
 license = "GPL-3.0"
-license-file = "LICENSE.txt"
 readme = "./README.md"
 edition = "2021"
 build = false
